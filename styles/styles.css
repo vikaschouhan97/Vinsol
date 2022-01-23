@@ -1,0 +1,99 @@
+.body {
+  padding: 2% 5%;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+.topHeading {
+  margin-top: 50px;
+  padding: 0 10%;
+}
+
+.topHeadingDescription {
+  margin: auto;
+}
+
+.dropdownButton {
+  border: none;
+  background-color: white;
+}
+
+.autoMargin {
+  margin: auto;
+}
+
+.topMargin {
+  margin-top: 2%;
+}
+
+.bottomPadding {
+  padding-bottom: 5%;
+}
+
+.blueFont {
+  color: cornflowerblue;
+}
+
+.footerDiv {
+  background-color: rgb(150, 146, 146);
+  color: black;
+  position: relative;
+  margin-top: 6%;
+  text-align: center;
+  border-top: gray;
+  box-shadow: rgb(0 0 0 / 50%) 0px -6px 6px -6px;
+}
+
+.getInTouch {
+  background-color: orange;
+  position: absolute;
+  width: 20rem;
+  height: 110%;
+  left: 70%;
+  bottom: 0.1%;
+  box-shadow: rgba(255, 217, 0, 4) 0px -6px 6px -6px;
+}
+
+.flicker {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.twitter {
+  text-align: left;
+  padding: 0 3%;
+}
+
+.whiteFont {
+  color: rgb(58, 58, 58);
+}
+
+@media (max-width: 1200px) {
+  .logoText {
+    display: none;
+  }
+  .topHeadingDescription {
+    margin-top: 40px;
+  }
+  .autoMargin {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .getInTouch {
+    position: static;
+    width: 90%;
+    margin: auto;
+  }
+  .footerDiv {
+    position: static;
+    margin: 4% auto;
+    background-color: black;
+    color: blanchedalmond;
+  }
+  .whiteFont {
+    color: white;
+  }
+}
