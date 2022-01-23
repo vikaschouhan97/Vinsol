@@ -88,7 +88,7 @@
   }
   .footerDiv {
     position: static;
-    margin: 4% auto;
+    margin: 4% auto 0;
     background-color: black;
     color: blanchedalmond;
   }
